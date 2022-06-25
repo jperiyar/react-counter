@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.btn {
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  box-shadow: 1px 1px 0 0.5px gray;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: cornsilk;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn-secondary {
+  background-color: lightgray;
+  color: blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.counter-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter {
+  background-color: #333;
+  color: #ebebeb;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
